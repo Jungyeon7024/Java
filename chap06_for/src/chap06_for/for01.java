@@ -16,7 +16,7 @@ public class for01 {
 		  
 		 **/
 		//     초기 i값; 조건 ; 증감식(증가와 감소를
-		for (int i= 1; i<= 5; i++) {
+		/*for (int i= 1; i<= 5; i++) {
 			//조건 i<=5 참일 경우에 실행되는 공간
 			System.out.println(i);
 		}
@@ -40,16 +40,16 @@ public class for01 {
 			sum += i;
 			System.out.println("1부터 10까지의 합 :" + i);
 		}
-		
+		*/
 		// sum1의 합이 1~5 까지합 
 		
 		int sum1 = 0;
-		for(int i = 1; i<=5; i++) {
+		for(int i = 1; i<=8; i++) {
 			
 			sum1 += i;
-			System.out.println("1부터 5까지의 합 :" + sum1);
+			System.out.println("1부터 8까지의 합 :" + sum1);
 		}
-		
+		/*
 		int sum2 = 10;
 		for(int i = 1; i >=2; i--) {
 			System.out.println("sum2 - :" + sum2);
@@ -63,7 +63,8 @@ public class for01 {
 			System.out.println("mul : " + mul);
 		
 			
-		}
+		} 
+		*/
 	}
 
 }

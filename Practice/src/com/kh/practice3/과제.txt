@@ -1,0 +1,156 @@
+1 이상의 숫자를 입력하세요
+import java.util.Scanner;
+	3번
+	-------------------------------------------------------
+	
+	Scanner sc = new Scanner(System.in);
+
+	System.out.println("숫자를 입력하세요");
+	int num = sc.nextInt();
+	
+	if(num < 1)	{
+		System.out.println("1이상의 숫자를 입력해주세요");
+	} else {
+		for (int i = num; i>=3; i--){
+		
+		System.out.println("거꾸로 숫자 출력");
+			}
+		}
+	
+	
+	
+	2번 
+	-------------------------------------------------------
+	Scanner sc = new Scanner(System.in);
+
+	System.out.println("숫자를 입력하세요");
+	
+	int num = sc.nextInt();
+	boolean isTrue = true;
+	while(isTrue){
+	
+	if(num < 1)	{
+		System.out.println("1이상의 숫자를 입력해주세요");
+	} else {
+		for (int i = 1; i<= num; i++){
+			System.out.println(i);
+		    }
+
+	isTrue = false;
+	break;
+	    }	
+	}
+ 
+ 
+ 
+ 	1번 
+ 	-------------------------------------------------------
+  	Scanner sc = new Scanner(System.in);
+
+	System.out.println("숫자를 입력하세요");
+	
+	int num = sc.nextInt();
+	
+	if(num < 1)	{
+		System.out.println("1이상의 숫자를 입력해주세요");
+	} else {
+		for (int i =1; i <= num; i++){
+			System.out.println(i);
+		    }
+	    }	
+	
+	
+	4번 
+	-------------------------------------------------------
+	
+	Scanner sc = new Scanner(System.in);
+	
+	
+	
+	
+	번 
+	-------------------------------------------------------
+	
+	int sum1 = 0;
+      for(int i = 1; i<=8; i++) {
+         
+         sum1 += i;
+         System.out.println("1부터 8까지의 합 :" + sum1);
+	
+	
+	6번 
+	-------------------------------------------------------
+	
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("첫 번쨰 숫자를 입력하세요ㅕ : ");
+	int start = sc.nextInt();
+	
+	System.out.println("두 번째 숫자를 입력하세요 : ");
+	int end = sc.nextInt();
+	
+	System.out.println(start + " 부터 " + second + "까지 숫자 ");
+	for( int i = start; i<= end; i++) {
+		System.out.println(i);
+	
+	
+	
+	x번 
+	-------------------------------------------------------
+	
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("첫 번쨰 숫자를 입력하세요ㅕ : ");
+	int start = sc.nextInt();
+	
+	System.out.println("두 번째 숫자를 입력하세요 : ");
+	int end = sc.nextInt();
+	
+	if(start > end  ) { }
+		for ( int i = start; i <= end; i++) {
+			System.out.println(i) }
+	
+	else if  (reStart < reEnd) {}
+		for ( int i = reStart; i <= reEnd; i++) {
+			System.out.println(i) }
+	
+	
+	
+	if (start < end ) {
+		int reStart = start;
+		int reEnd = end;
+		
+	
+	-------------------------------------------------------------------
+	
+	
+	
+	Math 자바에 내장 클래스
+	min (가장 작은 값) 주어진 두개의 숫자 중에서 더 작은 값을 반환
+	max (가장 큰 값) 주어진 두개의 숫자 중에서 더 큰 값을 반환
+	
+	int a = 5;
+	int b = 8;
+	
+	int minValue = Math.min(a , b); minValue에는 5가 저장됨
+	
+	int maxValue = Math.max(a , b); maxValue에는 8이 저장됨
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
