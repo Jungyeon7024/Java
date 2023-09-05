@@ -9,6 +9,18 @@ public class Circle {
 		this.PI = 3.14;
 		this.radius=1;
 	}
+	public double getPI() {
+		return PI;
+	}
+	public void setPI(double pI) {
+		PI = pI;
+	}
+	public int getRadius() {
+		return radius;
+	}
+	public void setRadius(int radius) {
+		this.radius = radius;
+	}
 	public void incrementRadius() {
 		System.out.println("반지름 :"	+ radius);
 		
