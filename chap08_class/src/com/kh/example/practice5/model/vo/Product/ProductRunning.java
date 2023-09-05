@@ -4,7 +4,7 @@ public class ProductRunning {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Product product1 = new Product("ㅇㅂㅇ",100,"ㅇㅊㅇ");
+		Product product1 = new Product();
 		
 		product1.information();
 

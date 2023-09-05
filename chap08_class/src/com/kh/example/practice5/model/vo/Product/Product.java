@@ -7,14 +7,14 @@ public class Product {
 	price : int
 	brand : String
 	*/
-	String pname;
-	int price;
-	String brand;
+	private String pname;
+	private int price;
+	private String brand;
 	
-	public Product(String pname,int price,String brand){ 
-		this.pname = pname;
-		this.price = price;
-		this.brand =brand;
+	public Product(){ 
+		pname = "ㅇㅂㅇ";
+		price = 100;
+		brand ="ㅇㅈㅇ";
 		
 	}
 	
