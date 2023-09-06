@@ -38,9 +38,16 @@ public class PlayerCharacter {
 		}
 		
 	}
-	
+	//0미만의 값을 넣어도 0이하의 값이 출력되지 않음
 	public void setAttackPower(int attackPower) {
-		this.attackPower = attackPower;
+		//만약에 파워가 0보다 클경우
+		if(attackPower>=1) {
+			this.attackPower = attackPower;
+		} else {
+			this.attackPower= 0;
+			System.out.println("power가 부족합니다");
+		}
+		
 	}
 	
 	
@@ -51,8 +58,10 @@ public class PlayerCharacter {
 	}
 	
 	//캐릭터 공격하는 출력 메서드
-	public void attack() {
+	public void attack(PlayerCharacter target) {
+		System.out.println(name+"가 공격했습니다" +target.getName()+"한테"+attackPower+"데미지를");
 		System.out.println("공격했습니다" );
+
 		
 	}
 	//다른 캐릭터로부터 공격 받았을 때 메서드
