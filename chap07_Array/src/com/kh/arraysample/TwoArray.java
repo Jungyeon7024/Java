@@ -12,7 +12,7 @@ public class TwoArray {
 	};
 	
 	for(int i = 0; i<fruits.length; i++) {
-		for(int a = 0; a <fruits[i].length; a++) {
+		for(int a = 0; a <fruits[i].length; a++) { 
 			System.out.print(fruits[i][a]+ " ");
 	}
 		System.out.println();//다음행으로 이동할 수 있게 enter 용 출력 메소드 입력
