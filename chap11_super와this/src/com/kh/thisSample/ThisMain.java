@@ -17,27 +17,26 @@ this () 현재 클래스의 다른 생성자를 호출하는데 사용
 
  * */
 
-class Myclass {
+class MyClass {
 	int myField;
 	
-	Myclass(){
-		this(0);	//this()사용해서 다른 생성자 호출
+	MyClass(){
+	this(0);
 	}
 	
-	MyClass(int value){
-		this.myField =value;
-	
+	MyClass(int value) {
+		this.myField = value;
 	}
+	
 	void printValue() {
-		System.out.println("myField의 값:"this.myField);
+		System.out.println("myFiel의 값 : "+ this.myField);
 	}
-	}
-
-
+		
+		
 public class ThisMain {
 	public static void main(String[]args) {
-		MyClass obj1 = new Myclass();
-		MyClass obj2 = new Myclass(10);
+		MyClass obj1 = new MyClass();
+		MyClass obj2 = new MyClass(10);
 		
 		obj1.printValue();
 		obj2.printValue();
@@ -45,4 +44,5 @@ public class ThisMain {
 	
 	
 	}	
+}
 }
