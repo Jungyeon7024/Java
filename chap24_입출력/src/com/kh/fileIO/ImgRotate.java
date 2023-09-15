@@ -17,14 +17,12 @@ public class ImgRotate {
 		
 		//이미지 로드
 		try {
-			BufferedImage originImg =ImageIO.read(new File(inputImg));
-		} catch (IOException e) {
-			
-			//이미지 90도 회전
-			BufferedImage rotateImg = rotateImage(originImg,90);
-			
-			ImageIO.write(rotateImg, "jpg", new File(outputImg));
-			
+				BufferedImage originImg =ImageIO.read(new File(inputImg));
+				//이미지 90도 회전
+				BufferedImage rotateImg = rotateImage(originImg,90);
+				
+				ImageIO.write(rotateImg, "jpg", new File(outputImg));
+			} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
