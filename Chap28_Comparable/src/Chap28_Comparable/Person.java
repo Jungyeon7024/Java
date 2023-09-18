@@ -1,6 +1,7 @@
 package Chap28_Comparable;
 
-public class Person implements Comparable <Person>{
+
+public class Person implements Comparable<Person>{
 	private String name;
 	private int age;
 	
@@ -9,10 +10,18 @@ public class Person implements Comparable <Person>{
 		this.age = age;
 	}
 	
-	@Override
 	
-	public int compareTo(person otherPerson) {
-		//
+	@Override
+	public int compareTo(Person otherPerson) {
+		//나이 비교
+		return this.age -otherPerson.age;
+		
 	}
 	
+	@Override
+	public String toString() {
+		return "Person{name=" + name+" ,age" + age;
+	}
 }
+
+// 중복 파일 있나 확인.
