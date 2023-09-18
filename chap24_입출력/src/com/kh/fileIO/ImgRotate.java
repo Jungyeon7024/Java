@@ -49,11 +49,11 @@ public class ImgRotate {
 			Graphics2D g2d = rotateImg.createGraphics();
 			g2d.translate((newWidth-width)/2,(newHeight-height)/2);
 			g2d.rotate(radians,width/2,height/2	);
-			g2d.drawRenderableImage(originImg, null);
+			g2d.drawRenderedImage(originImg, null);
 			g2d.dispose();
 			
 			
-			return rotateImage;
+			return rotateImg;
 			
 			
 					
