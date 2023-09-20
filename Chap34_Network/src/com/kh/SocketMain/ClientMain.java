@@ -9,7 +9,7 @@ import java.net.Socket;
 public class ClientMain {
     public static void main(String[] args) throws IOException {
         // 서버에 연결하기 위한 소켓 생성
-        Socket socket = new Socket("localhost", 4017);
+        Socket socket = new Socket("localhost", 4018);
 
         // 서버로 데이터를 보내기 위한 출력 스트림 생성
         PrintWriter out = new PrintWriter(socket.getOutputStream(), true);

@@ -11,7 +11,7 @@ public class ServerMain {
 
     public static void main(String[] args) throws IOException {
         // 소켓 서버 생성
-        ServerSocket serverSocket = new ServerSocket(4017);
+        ServerSocket serverSocket = new ServerSocket(4018);
         System.out.println("서버가 시작되었습니다.");
 
         // 클라이언트 연결 대기
