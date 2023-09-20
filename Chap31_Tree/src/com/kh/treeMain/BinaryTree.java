@@ -47,9 +47,9 @@ public class BinaryTree {
 	private void inOrderTR(TreeNode root) {
 		if (root != null) {
 			inOrderTR(root.left);
-			System.out.println(root.data+ " ");
+			System.out.println(" root.left : "+root.data);
 			inOrderTR(root.right);
-			System.out.println(root.data+ " ");
+			System.out.println(" root.right : "+root.data );
 		}
 	}
 	public static void main(String[] args) {
@@ -59,10 +59,10 @@ public class BinaryTree {
 		tree.insert(50);
 		tree.insert(30);
 		tree.insert(10);
-		tree.insert(70);
+		tree.insert(60);
 		tree.insert(20);
 		tree.insert(40);
-		tree.insert(60);
+		
 		
 		
 		System.out.println("이진 트리의 중위 순회 결과 : ");
