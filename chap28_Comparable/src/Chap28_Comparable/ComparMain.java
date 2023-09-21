@@ -6,7 +6,7 @@ import Chap28_Comparable.Person;
 public class ComparMain {
 
 	public static void main(String[] args) {
-		List<Person> people = new ArrayList<>();
+		List<Person> people = new ArrayList<Person>();
 		people.add(new Person("학생1",78));
 		people.add(new Person("학생2",79));
 		people.add(new Person("학생3",71));
