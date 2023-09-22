@@ -5,7 +5,7 @@ import java.net.Socket;
 
 public class TcpClient {
 	public static void main(String[] args) throws Exception{
-	int port =4442;
+	int port =7024;
 	String serverIP;
 	
 	try {
